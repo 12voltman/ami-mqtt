@@ -4,9 +4,10 @@ After=network.target
 
 [Service]
 User=root
+Group=root
 ExecStart=/usr/bin/nodejs ./ami-mqtt.js
 ExecReload=/bin/kill $MAINPID
-WorkingDirectory=/opt/ami-mqtt
+WorkingDirectory=/root/ami-mqtt
 Type=simple
 Restart=always
 RestartSec=5
