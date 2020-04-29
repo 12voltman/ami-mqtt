@@ -3,7 +3,7 @@ Description=Start Asterisk AMI to MQTT Gateway
 After=network.target
 
 [Service]
-User=tim
+User=root
 ExecStart=/usr/bin/nodejs ./ami-mqtt.js
 ExecReload=/bin/kill $MAINPID
 WorkingDirectory=/opt/ami-mqtt
