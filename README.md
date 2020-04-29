@@ -23,9 +23,9 @@ Requires a config file - config.json - See config.json.sample
 Remember that comments will need to be removed and JSON is extremely picky
 about formatting.
 
-## Installation Steps
+## Installation Steps (WIP)
 
-1. Choose installation location and run ```git clone https://github.com/12voltman/ami-mqtt.git``` (for RasPBX run this command in the /root folder, which is where you default to on ssh login)
+1. Choose installation location and run ```git clone https://github.com/12voltman/ami-mqtt.git``` then open the created folder(for RasPBX run this command in the /root folder, which is where you default to on ssh login)
 
 2. Edit ami-mqtt.service as follows (for RasPBX skip this step)
    * Set "User" equals to the user you want the service to run as
